@@ -1,4 +1,3 @@
-import numpy as np
 from stochastic_rl.distributions.knapsack_items import sample_knapsack_item
 
 class StochasticKnapsackEnv:

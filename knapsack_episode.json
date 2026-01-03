@@ -1,0 +1,625 @@
+{
+  "meta": {
+    "env": "StochasticKnapsackEnv",
+    "params": {
+      "C": 50,
+      "T": 60,
+      "w_max": 10
+    },
+    "started_at": "2026-01-03T19:14:08",
+    "finished_at": "2026-01-03T19:14:08",
+    "total_value": 97.95336552174588,
+    "num_steps": 29
+  },
+  "trajectory": [
+    {
+      "t": 1,
+      "state": {
+        "c": 50.0,
+        "w": 10.0,
+        "v": 17.15162439202979
+      },
+      "action": 0,
+      "reward": 0.0,
+      "next_state": {
+        "c": 50.0,
+        "w": 7.0,
+        "v": 15.663635895542951
+      },
+      "done": false,
+      "info": {
+        "accepted": false,
+        "remaining_capacity": 50.0,
+        "total_value": 0.0
+      }
+    },
+    {
+      "t": 2,
+      "state": {
+        "c": 50.0,
+        "w": 7.0,
+        "v": 15.663635895542951
+      },
+      "action": 1,
+      "reward": 15.663635895542951,
+      "next_state": {
+        "c": 43.0,
+        "w": 10.0,
+        "v": 21.82870565052053
+      },
+      "done": false,
+      "info": {
+        "accepted": true,
+        "remaining_capacity": 43.0,
+        "total_value": 15.663635895542951
+      }
+    },
+    {
+      "t": 3,
+      "state": {
+        "c": 43.0,
+        "w": 10.0,
+        "v": 21.82870565052053
+      },
+      "action": 1,
+      "reward": 21.82870565052053,
+      "next_state": {
+        "c": 33.0,
+        "w": 4.0,
+        "v": 9.73989892078808
+      },
+      "done": false,
+      "info": {
+        "accepted": true,
+        "remaining_capacity": 33.0,
+        "total_value": 37.49234154606348
+      }
+    },
+    {
+      "t": 4,
+      "state": {
+        "c": 33.0,
+        "w": 4.0,
+        "v": 9.73989892078808
+      },
+      "action": 0,
+      "reward": 0.0,
+      "next_state": {
+        "c": 33.0,
+        "w": 2.0,
+        "v": 3.6247032037922913
+      },
+      "done": false,
+      "info": {
+        "accepted": false,
+        "remaining_capacity": 33.0,
+        "total_value": 37.49234154606348
+      }
+    },
+    {
+      "t": 5,
+      "state": {
+        "c": 33.0,
+        "w": 2.0,
+        "v": 3.6247032037922913
+      },
+      "action": 1,
+      "reward": 3.6247032037922913,
+      "next_state": {
+        "c": 31.0,
+        "w": 2.0,
+        "v": 6.037594655228599
+      },
+      "done": false,
+      "info": {
+        "accepted": true,
+        "remaining_capacity": 31.0,
+        "total_value": 41.11704474985577
+      }
+    },
+    {
+      "t": 6,
+      "state": {
+        "c": 31.0,
+        "w": 2.0,
+        "v": 6.037594655228599
+      },
+      "action": 0,
+      "reward": 0.0,
+      "next_state": {
+        "c": 31.0,
+        "w": 7.0,
+        "v": 13.46168394476578
+      },
+      "done": false,
+      "info": {
+        "accepted": false,
+        "remaining_capacity": 31.0,
+        "total_value": 41.11704474985577
+      }
+    },
+    {
+      "t": 7,
+      "state": {
+        "c": 31.0,
+        "w": 7.0,
+        "v": 13.46168394476578
+      },
+      "action": 1,
+      "reward": 13.46168394476578,
+      "next_state": {
+        "c": 24.0,
+        "w": 1.0,
+        "v": 5.71687200078744
+      },
+      "done": false,
+      "info": {
+        "accepted": true,
+        "remaining_capacity": 24.0,
+        "total_value": 54.57872869462155
+      }
+    },
+    {
+      "t": 8,
+      "state": {
+        "c": 24.0,
+        "w": 1.0,
+        "v": 5.71687200078744
+      },
+      "action": 0,
+      "reward": 0.0,
+      "next_state": {
+        "c": 24.0,
+        "w": 8.0,
+        "v": 12.462983912783876
+      },
+      "done": false,
+      "info": {
+        "accepted": false,
+        "remaining_capacity": 24.0,
+        "total_value": 54.57872869462155
+      }
+    },
+    {
+      "t": 9,
+      "state": {
+        "c": 24.0,
+        "w": 8.0,
+        "v": 12.462983912783876
+      },
+      "action": 0,
+      "reward": 0.0,
+      "next_state": {
+        "c": 24.0,
+        "w": 7.0,
+        "v": 14.150950558583865
+      },
+      "done": false,
+      "info": {
+        "accepted": false,
+        "remaining_capacity": 24.0,
+        "total_value": 54.57872869462155
+      }
+    },
+    {
+      "t": 10,
+      "state": {
+        "c": 24.0,
+        "w": 7.0,
+        "v": 14.150950558583865
+      },
+      "action": 0,
+      "reward": 0.0,
+      "next_state": {
+        "c": 24.0,
+        "w": 7.0,
+        "v": 12.921192287530175
+      },
+      "done": false,
+      "info": {
+        "accepted": false,
+        "remaining_capacity": 24.0,
+        "total_value": 54.57872869462155
+      }
+    },
+    {
+      "t": 11,
+      "state": {
+        "c": 24.0,
+        "w": 7.0,
+        "v": 12.921192287530175
+      },
+      "action": 1,
+      "reward": 12.921192287530175,
+      "next_state": {
+        "c": 17.0,
+        "w": 10.0,
+        "v": 15.367836487274351
+      },
+      "done": false,
+      "info": {
+        "accepted": true,
+        "remaining_capacity": 17.0,
+        "total_value": 67.49992098215174
+      }
+    },
+    {
+      "t": 12,
+      "state": {
+        "c": 17.0,
+        "w": 10.0,
+        "v": 15.367836487274351
+      },
+      "action": 0,
+      "reward": 0.0,
+      "next_state": {
+        "c": 17.0,
+        "w": 10.0,
+        "v": 19.675788514433194
+      },
+      "done": false,
+      "info": {
+        "accepted": false,
+        "remaining_capacity": 17.0,
+        "total_value": 67.49992098215174
+      }
+    },
+    {
+      "t": 13,
+      "state": {
+        "c": 17.0,
+        "w": 10.0,
+        "v": 19.675788514433194
+      },
+      "action": 1,
+      "reward": 19.675788514433194,
+      "next_state": {
+        "c": 7.0,
+        "w": 3.0,
+        "v": 7.467327856432332
+      },
+      "done": false,
+      "info": {
+        "accepted": true,
+        "remaining_capacity": 7.0,
+        "total_value": 87.17570949658493
+      }
+    },
+    {
+      "t": 14,
+      "state": {
+        "c": 7.0,
+        "w": 3.0,
+        "v": 7.467327856432332
+      },
+      "action": 0,
+      "reward": 0.0,
+      "next_state": {
+        "c": 7.0,
+        "w": 6.0,
+        "v": 14.135823058209898
+      },
+      "done": false,
+      "info": {
+        "accepted": false,
+        "remaining_capacity": 7.0,
+        "total_value": 87.17570949658493
+      }
+    },
+    {
+      "t": 15,
+      "state": {
+        "c": 7.0,
+        "w": 6.0,
+        "v": 14.135823058209898
+      },
+      "action": 0,
+      "reward": 0.0,
+      "next_state": {
+        "c": 7.0,
+        "w": 3.0,
+        "v": 5.504283011301717
+      },
+      "done": false,
+      "info": {
+        "accepted": false,
+        "remaining_capacity": 7.0,
+        "total_value": 87.17570949658493
+      }
+    },
+    {
+      "t": 16,
+      "state": {
+        "c": 7.0,
+        "w": 3.0,
+        "v": 5.504283011301717
+      },
+      "action": 0,
+      "reward": 0.0,
+      "next_state": {
+        "c": 7.0,
+        "w": 5.0,
+        "v": 7.953670482163718
+      },
+      "done": false,
+      "info": {
+        "accepted": false,
+        "remaining_capacity": 7.0,
+        "total_value": 87.17570949658493
+      }
+    },
+    {
+      "t": 17,
+      "state": {
+        "c": 7.0,
+        "w": 5.0,
+        "v": 7.953670482163718
+      },
+      "action": 0,
+      "reward": 0.0,
+      "next_state": {
+        "c": 7.0,
+        "w": 4.0,
+        "v": 7.042743578582268
+      },
+      "done": false,
+      "info": {
+        "accepted": false,
+        "remaining_capacity": 7.0,
+        "total_value": 87.17570949658493
+      }
+    },
+    {
+      "t": 18,
+      "state": {
+        "c": 7.0,
+        "w": 4.0,
+        "v": 7.042743578582268
+      },
+      "action": 0,
+      "reward": 0.0,
+      "next_state": {
+        "c": 7.0,
+        "w": 1.0,
+        "v": 4.57452827178696
+      },
+      "done": false,
+      "info": {
+        "accepted": false,
+        "remaining_capacity": 7.0,
+        "total_value": 87.17570949658493
+      }
+    },
+    {
+      "t": 19,
+      "state": {
+        "c": 7.0,
+        "w": 1.0,
+        "v": 4.57452827178696
+      },
+      "action": 0,
+      "reward": 0.0,
+      "next_state": {
+        "c": 7.0,
+        "w": 3.0,
+        "v": 1.1172764763762162
+      },
+      "done": false,
+      "info": {
+        "accepted": false,
+        "remaining_capacity": 7.0,
+        "total_value": 87.17570949658493
+      }
+    },
+    {
+      "t": 20,
+      "state": {
+        "c": 7.0,
+        "w": 3.0,
+        "v": 1.1172764763762162
+      },
+      "action": 1,
+      "reward": 1.1172764763762162,
+      "next_state": {
+        "c": 4.0,
+        "w": 7.0,
+        "v": 13.704821380627068
+      },
+      "done": false,
+      "info": {
+        "accepted": true,
+        "remaining_capacity": 4.0,
+        "total_value": 88.29298597296115
+      }
+    },
+    {
+      "t": 21,
+      "state": {
+        "c": 4.0,
+        "w": 7.0,
+        "v": 13.704821380627068
+      },
+      "action": 0,
+      "reward": 0.0,
+      "next_state": {
+        "c": 4.0,
+        "w": 4.0,
+        "v": 7.071898646673236
+      },
+      "done": false,
+      "info": {
+        "accepted": false,
+        "remaining_capacity": 4.0,
+        "total_value": 88.29298597296115
+      }
+    },
+    {
+      "t": 22,
+      "state": {
+        "c": 4.0,
+        "w": 4.0,
+        "v": 7.071898646673236
+      },
+      "action": 0,
+      "reward": 0.0,
+      "next_state": {
+        "c": 4.0,
+        "w": 2.0,
+        "v": 3.0633455099671743
+      },
+      "done": false,
+      "info": {
+        "accepted": false,
+        "remaining_capacity": 4.0,
+        "total_value": 88.29298597296115
+      }
+    },
+    {
+      "t": 23,
+      "state": {
+        "c": 4.0,
+        "w": 2.0,
+        "v": 3.0633455099671743
+      },
+      "action": 1,
+      "reward": 3.0633455099671743,
+      "next_state": {
+        "c": 2.0,
+        "w": 9.0,
+        "v": 17.50967871776429
+      },
+      "done": false,
+      "info": {
+        "accepted": true,
+        "remaining_capacity": 2.0,
+        "total_value": 91.35633148292833
+      }
+    },
+    {
+      "t": 24,
+      "state": {
+        "c": 2.0,
+        "w": 9.0,
+        "v": 17.50967871776429
+      },
+      "action": 0,
+      "reward": 0.0,
+      "next_state": {
+        "c": 2.0,
+        "w": 1.0,
+        "v": 3.4170867193070658
+      },
+      "done": false,
+      "info": {
+        "accepted": false,
+        "remaining_capacity": 2.0,
+        "total_value": 91.35633148292833
+      }
+    },
+    {
+      "t": 25,
+      "state": {
+        "c": 2.0,
+        "w": 1.0,
+        "v": 3.4170867193070658
+      },
+      "action": 1,
+      "reward": 3.4170867193070658,
+      "next_state": {
+        "c": 1.0,
+        "w": 9.0,
+        "v": 19.698120677338018
+      },
+      "done": false,
+      "info": {
+        "accepted": true,
+        "remaining_capacity": 1.0,
+        "total_value": 94.77341820223539
+      }
+    },
+    {
+      "t": 26,
+      "state": {
+        "c": 1.0,
+        "w": 9.0,
+        "v": 19.698120677338018
+      },
+      "action": 0,
+      "reward": 0.0,
+      "next_state": {
+        "c": 1.0,
+        "w": 4.0,
+        "v": 9.187549032688334
+      },
+      "done": false,
+      "info": {
+        "accepted": false,
+        "remaining_capacity": 1.0,
+        "total_value": 94.77341820223539
+      }
+    },
+    {
+      "t": 27,
+      "state": {
+        "c": 1.0,
+        "w": 4.0,
+        "v": 9.187549032688334
+      },
+      "action": 0,
+      "reward": 0.0,
+      "next_state": {
+        "c": 1.0,
+        "w": 6.0,
+        "v": 11.48158473220908
+      },
+      "done": false,
+      "info": {
+        "accepted": false,
+        "remaining_capacity": 1.0,
+        "total_value": 94.77341820223539
+      }
+    },
+    {
+      "t": 28,
+      "state": {
+        "c": 1.0,
+        "w": 6.0,
+        "v": 11.48158473220908
+      },
+      "action": 0,
+      "reward": 0.0,
+      "next_state": {
+        "c": 1.0,
+        "w": 1.0,
+        "v": 3.179947319510483
+      },
+      "done": false,
+      "info": {
+        "accepted": false,
+        "remaining_capacity": 1.0,
+        "total_value": 94.77341820223539
+      }
+    },
+    {
+      "t": 29,
+      "state": {
+        "c": 1.0,
+        "w": 1.0,
+        "v": 3.179947319510483
+      },
+      "action": 1,
+      "reward": 3.179947319510483,
+      "next_state": {
+        "c": 0.0,
+        "w": 1.0,
+        "v": 3.179947319510483
+      },
+      "done": true,
+      "info": {
+        "accepted": true,
+        "remaining_capacity": 0.0,
+        "total_value": 97.95336552174588
+      }
+    }
+  ]
+}
