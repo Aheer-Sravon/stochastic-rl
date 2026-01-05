@@ -8,7 +8,9 @@ dependencies = [
     "cvxpy>=1.7.5",
     "jupyter>=1.1.1",
     "numpy>=2.4.0",
+    "ortools>=9.14.6206",
     "pyscipopt>=6.0.0",
+    "pyvroom>=1.14.0",
     "stable-baselines3[extra]>=2.7.1",
 ]
 
